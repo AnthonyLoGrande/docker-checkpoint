@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server portion of docker-checkpoint",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyLoGrande/docker-checkpoint.git"
+  },
+  "author": "Anthony, Stephen, John",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyLoGrande/docker-checkpoint/issues"
+  },
+  "homepage": "https://github.com/AnthonyLoGrande/docker-checkpoint#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.14",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "sqlite3": "^5.0.2"
+  }
+}
